@@ -8,6 +8,13 @@ Storage offshore 😸 and to share, naturally 🙂
 
 #### screenrecorder.lua => ~/.config/awesome/screenrecorder.lua
 
+rc.lua
+```lua
+local screenrecorder = require("screenrecorder")
+myscreenrecorder = screenrecorder()
+-- now put the widget inside the taskbar...
+```
+
 I need find a way to grab display from lua instead using default
 
 I need find a way to select soundcard instead using default
